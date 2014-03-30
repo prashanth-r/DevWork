@@ -1,0 +1,6 @@
+<configuration>
+<property>
+<name>mapreduce.outputformat.class</name>
+<value>oracle.hadoop.loader.lib.output.JDBCOutputFormat</value>
+</property>
+</configuration>

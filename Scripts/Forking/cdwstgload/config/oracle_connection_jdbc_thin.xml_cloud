@@ -1,0 +1,18 @@
+<configuration>
+
+<property>
+    <name>oracle.hadoop.loader.connection.url</name>
+        <value>jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = hostname)(PORT = portnum)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = svc)))</value>
+          </property>
+
+  <property>
+      <name>oracle.hadoop.loader.connection.user</name>
+          <value>USERID</value>
+            </property>
+
+  <property>
+      <name>oracle.hadoop.loader.connection.password</name>
+          <value>PASSWORD</value> 
+            </property>
+
+</configuration>

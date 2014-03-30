@@ -1,0 +1,11 @@
+<configuration>
+<property>
+<name>mapreduce.inputformat.class</name>
+<value>cdw.hadoop.olh.stgload.StagingCustomInputFormat</value>
+<!-- <value>oracle.hadoop.loader.lib.input.DelimitedTextInputFormat</value> -->
+</property>
+<property>
+<name>oracle.hadoop.loader.input.fieldTerminator</name>
+<value>\u0009</value>
+</property>
+</configuration> 
